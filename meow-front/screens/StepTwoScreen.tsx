@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
+import Navigation from '../navigation';
 
 import { Text, View } from '../components/Themed';
-const emoji = require('emoji-poop');
+const emoji = require('../assets/images/emoji-poop.png');
 
 export default function StepTwoScreen() {
 
@@ -12,7 +13,7 @@ export default function StepTwoScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Oops! Navigation tab is lost! Please look for it and make it shown again</Text>
+      <Navigation colorScheme='dark' />
     </View>
   );
 }
