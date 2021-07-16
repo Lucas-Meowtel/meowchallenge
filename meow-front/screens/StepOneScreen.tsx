@@ -23,7 +23,7 @@ export default function StepOneScreen({}) {
     }
   }
 
-  setImg("https://meowtel.com/img/assets/meowtel-cat-mascot-footer.png")
+  // setImg("https://meowtel.com/img/assets/meowtel-cat-mascot-footer.png")
 
   return (
     <View style={styles.container}>
